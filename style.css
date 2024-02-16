@@ -1,0 +1,529 @@
+body {
+    background: #fff;
+    color: #fff;
+    padding: 25px;
+    font-family: sans-serif;
+}
+
+.{
+  background: #fff;
+  color: #fff;
+  padding: 25px;
+  font-family: sans-serif;
+}
+
+.w-icon-slider-left:before {
+    content: "\e601";
+    font-family: 'FontAwesome';
+}
+
+.w-icon-slider-right:before {
+    content: "\e600";
+    font-family: 'FontAwesome';
+}
+
+.w-slider {
+    position: relative;
+    height: 300px;
+    text-align: center;
+    background: #ddd;
+    clear: both;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: rgba(0,0,0,0)
+}
+
+.w-slider-mask {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    height: 100%;
+    white-space: nowrap
+}
+
+.w-slide {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    white-space: normal;
+    text-align: left
+}
+
+.w-slider-nav {
+    position: absolute;
+    z-index: 2;
+    top: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding-top: 10px;
+    height: 40px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: rgba(0,0,0,0)
+}
+
+
+.w-slider-arrow-left,.w-slider-arrow-right {
+    position: absolute;
+    width: 80px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    cursor: pointer;
+    overflow: hidden;
+    color: #fff;
+    font-size: 40px;
+    -webkit-tap-highlight-color: transparent;
+    tap-highlight-color: rgba(0,0,0,0);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.w-slider-arrow-left {
+    z-index: 3;
+    right: auto
+}
+
+.w-slider-arrow-right {
+    z-index: 4;
+    left: auto
+}
+
+.w-icon-slider-left,.w-icon-slider-right {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 1em;
+    height: 1em
+}
+
+.p-large.is--center {
+    text-align: center
+}
+
+.u-align.is--center {
+    text-align: center
+}
+
+
+.c-home_quote {
+    border-left-style: none;
+    font-family: Gotham,sans-serif;
+    color: #333;
+    font-size: 24px;
+    line-height: 125%;
+    font-weight: 700;
+    text-align: center
+}
+
+.u-padding_bottom.is--24 {
+    width: 40px;
+    height: 40px;
+}
+
+.u-margin-top.is--24 {
+    margin-top: 24px
+}
+
+.is--white {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    color: #fff
+}
+
+.is--center {
+    text-align: center
+}
+
+.u-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.u-flex.is--ver {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0)
+}
+
+.text-color-blue {
+    color: #3067b9
+}
+
+.badge-large.is--black {
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-color: #000;
+    font-family: Gotham,sans-serif;
+    color: #fff;
+    line-height: 1.5rem;
+    font-weight: 500
+}
+
+.badge-large.is--white {
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-color: #fff;
+    font-family: Gotham,sans-serif;
+    color: #000;
+    line-height: 1.5rem;
+    font-weight: 500
+}
+
+.u-text-color.is--seagreen {
+    color: #00a28c
+}
+
+.u-text-color.is--salmon {
+    color: #f26967
+}
+
+.u-text-color.is--black {
+    color: #333
+}
+
+.u-background_color.is--white {
+    background-color: #fff
+}
+
+.u-padding_bottom.is--24 {
+    padding-bottom: 24px
+}
+
+.u-flex_hor_center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.c-home_testimonial_entry {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.c-home_testimonials {
+    height: 350px
+}
+
+.u-margin-bottom.is--24 {
+    margin-bottom: 24px
+}
+
+.u-padding.is--24 {
+    padding: 24px
+}
+
+  .c-home_quote {
+        width: 85%
+    }
+
+ .c-home_testimonial_entry {
+        width: 80vw
+    }
+
+    .c-home_testimonials {
+        height: 400px
+    }
+
+  .c-home_quote {
+        font-size: 20px
+    }
+
+ .is--center {
+        text-align: center
+    }
+    
+    .c-home_testimonials {
+        height: 500px
+    }
+.u-align.is--center {
+        margin-right: 4px;
+        margin-left: 4px
+    }
+
+    .c-home_quote {
+        font-size: 18px
+    }
+
+ .u-margin-top.is--24 {
+        padding-top: 8px
+    }
+.u-flex {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+     .badge-large.is--black,.badge-large.is--white {
+        padding: 4px 16px;
+        font-size: 1.1rem
+    }
+ .u-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.u-flex.is--ver {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0)
+}
+
+.text-color-blue {
+    color: #3067b9
+}
+
+.badge-large.is--black {
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-color: #000;
+    font-family: Gotham,sans-serif;
+    color: #fff;
+    line-height: 1.5rem;
+    font-weight: 500
+}
+
+.badge-large.is--white {
+    display: inline-block;
+    padding: 8px 24px;
+    border-radius: 50px;
+    background-color: #fff;
+    font-family: Gotham,sans-serif;
+    color: #000;
+    line-height: 1.5rem;
+    font-weight: 500
+}
+
+.u-text-color.is--seagreen {
+    color: #00a28c
+}
+
+.u-text-color.is--salmon {
+    color: #f26967
+}
+
+.u-text-color.is--black {
+    color: #333
+}
+
+.u-background_color.is--white {
+    background-color: #fff
+}
+
+.u-padding_bottom.is--24 {
+    padding-bottom: 24px
+}
+
+.u-flex_hor_center {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.c-home_testimonial_entry {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 60vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.c-home_testimonials {
+    height: 350px
+}
+
+.u-margin-bottom.is--24 {
+    margin-bottom: 24px
+}
+
+.u-padding.is--24 {
+    padding: 24px
+}
+
+  .c-home_quote {
+        width: 85%
+    }
+
+ .c-home_testimonial_entry {
+        width: 80vw
+    }
+
+    .c-home_testimonials {
+        height: 400px
+    }
+
+  .c-home_quote {
+        font-size: 20px
+    }
+
+ .is--center {
+        text-align: center
+    }
+    
+    .c-home_testimonials {
+        height: 500px
+    }
+.u-align.is--center {
+        margin-right: 4px;
+        margin-left: 4px
+    }
+
+    .c-home_quote {
+        font-size: 18px
+    }
+
+ .u-margin-top.is--24 {
+        padding-top: 8px
+    }
+.u-flex {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+     .badge-large.is--black,.badge-large.is--white {
+        padding: 4px 16px;
+        font-size: 1.1rem
+    }
+ .c-home_testimonials {
+        height: 600px
+    }
+ 
